@@ -1,0 +1,75 @@
+.rightSidebarContainer {
+  flex: 3;
+  height: calc(100vh - 50px);
+}
+.birthdayWrapper {
+  padding: 20px 20px 0 0;
+}
+.birthdayContainer {
+  display: flex;
+  align-items: center;
+}
+.birthdayImg {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.adImg {
+  width: 100%;
+  margin-top: 15px;
+}
+
+/* ProfileRightSideBar Css Start*/
+.rightBarFollowBtn {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #1872f2;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.rightBarFollowBtn :focus {
+  outline: none;
+}
+
+.rightBarInfo {
+  margin-bottom: 10px;
+}
+.rightBarInfoKey {
+  font-weight: 500;
+  margin-right: 15px;
+  color: #555;
+}
+
+.rightBarInfoValue {
+  font-weight: 300;
+}
+.rightBarFollowings {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -webkit-box-shadow: -1px 2px 13px 8px rgba(0, 0, 0, 0.06);
+  box-shadow: -1px 2px 13px 8px rgba(0, 0, 0, 0.06);
+}
+.rightBarFollowingsItem {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.rightBarFollowingsImg {
+  width: 150px;
+  height: 100px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.rightBarFollowingsName {
+  margin-top: 100px;
+  margin-left: -100px;
+}
+/* ProfileRightSideBar Css Finish*/

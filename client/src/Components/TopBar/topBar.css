@@ -1,0 +1,71 @@
+.topBarContainer {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(73, 73, 248);
+  top: 0;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  z-index: 999;
+}
+
+.topBarLeft {
+  flex: 3;
+}
+
+.logoBarLeft {
+  font-size: 24px;
+  color: white;
+  margin-left: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.topBarCenter {
+  flex: 5;
+}
+.topBarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.topBarLinks {
+  display: flex;
+}
+.topBarLink {
+  margin-right: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.topBarIcons {
+  display: flex;
+}
+.topBarItems {
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.topBarIconBadge {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  color: white;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+.topBarImg {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  object-fit: cover;
+}

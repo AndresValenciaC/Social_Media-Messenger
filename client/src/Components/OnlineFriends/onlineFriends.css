@@ -1,0 +1,43 @@
+.onlineFriendsContainer {
+  -webkit-box-shadow: -1px 2px 13px 8px rgba(0, 0, 0, 0.06);
+  box-shadow: -1px 2px 13px 8px rgba(0, 0, 0, 0.06);
+  margin: 30px 0;
+  width: 100%;
+  border: radius 10px;
+}
+.friendsTitle {
+  margin: 20px 0;
+}
+.onlineFriendList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.onlineFriend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.onlineFriendImgContainer {
+  display: flex;
+  position: relative;
+}
+.onlineFriendImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.badgeOnlineFriend {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: limegreen;
+  top: -2px;
+  right: 0;
+  border: 2px solid white;
+}
+.onlineFriendTxt {
+  margin-left: 10px;
+}
